@@ -91,10 +91,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "AI tools for professionals: email drafting, meeting summaries, and a strict workplace chatbot.",
+          "Generate professional emails, summarize meeting notes, and chat with an AI workplace assistant. No sign-in required.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "WorkAI — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Generate professional emails, summarize meeting notes, and chat with an AI workplace assistant. No sign-in required." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f9cc2bd1-2ca6-4d26-9a35-91c1ca7badb8/id-preview-a30922f7--4c8ef00f-8ad2-44c9-8298-2e1183cba281.lovable.app-1783639278326.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f9cc2bd1-2ca6-4d26-9a35-91c1ca7badb8/id-preview-a30922f7--4c8ef00f-8ad2-44c9-8298-2e1183cba281.lovable.app-1783639278326.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
