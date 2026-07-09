@@ -25,7 +25,7 @@ Shared layout in `__root.tsx`: `SidebarProvider` + `AppSidebar` + main content. 
 
 ### 1. Smart Email Generator (`/email-generator`)
 - Structured inputs: Recipient, Subject/Purpose, Key points, **Tone** (Formal / Friendly / Persuasive), Length.
-- Generates email via Lovable AI, always appends signature **"U. Dunywa"**.
+- Generates email via Lovable AI, no fixed signature required.
 - Output rendered in an **editable textarea**; Copy + Regenerate buttons.
 
 ### 2. Meeting Notes Summarizer (`/meeting-summarizer`)
