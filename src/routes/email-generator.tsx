@@ -78,7 +78,7 @@ function EmailGeneratorPage() {
         <div className="min-w-0">
           <h1 className="truncate font-display text-2xl font-bold">Smart Email Generator</h1>
           <p className="text-sm text-muted-foreground">
-            Structured inputs → polished email signed by U. Dunywa.
+            Structured inputs → polished professional email.
           </p>
         </div>
       </div>

@@ -23,10 +23,7 @@ export const generateEmail = createServerFn({ method: "POST" })
     const system = `You are an expert email writer. Write a complete, ready-to-send professional email.
 - Use the requested tone precisely.
 - Include a subject line prefixed with "Subject: " on the first line.
-- Then a greeting, body, closing.
-- ALWAYS sign off with exactly:
-Best regards,
-U. Dunywa
+- Then a greeting, body, and closing.
 - Do not add commentary, markdown, or code fences. Output ONLY the email text.`;
 
     const prompt = `Recipient: ${data.recipient}
